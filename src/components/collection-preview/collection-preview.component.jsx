@@ -1,5 +1,5 @@
 import React from "react";
-import { withRouter } from "react-router-dom";
+
 import "./collection-preview.styles.scss";
 
 import CollectionItem from "./../collection-item/collection-item.component";
@@ -20,4 +20,4 @@ const CollectionPreview = (props) => {
   );
 };
 
-export default withRouter(CollectionPreview);
+export default CollectionPreview;
